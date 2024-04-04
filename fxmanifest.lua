@@ -1,19 +1,22 @@
 shared_script '@WaveShield/resource/waveshield.lua' --this line was automatically written by WaveShield
 
-shared_script '@mp_var/shared_fg-obfuscated.lua'
-shared_script '@mp_var/ai_module_fg-obfuscated.lua'
---[[ FX Information ]]--
-fx_version   'cerulean'
+
+
+--[[ FX Information ]]
+--
+fx_version 'cerulean'
 use_experimental_fxv2_oal 'yes'
-lua54        'yes'
-game         'gta5'
---[[ Resource Information ]]--
-name         'ox_doorlock'
-version      '1.15.0'
-license      'GPL-3.0-or-later'
-author       'Overextended'
-repository   'https://github.com/overextended/ox_doorlock'
---[[ Manifest ]]--
+lua54 'yes'
+game 'gta5'
+--[[ Resource Information ]]
+--
+name 'ox_doorlock'
+version '1.15.0'
+license 'GPL-3.0-or-later'
+author 'Overextended'
+repository 'https://github.com/overextended/ox_doorlock'
+--[[ Manifest ]]
+--
 shared_scripts {
 	'@ox_lib/init.lua',
 	'config.lua',
@@ -43,6 +46,6 @@ dependencies {
 	'ox_lib',
 }
 ox_libs {
-    'locale',
-    'table',
+	'locale',
+	'table',
 }
